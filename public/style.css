@@ -1,0 +1,34 @@
+/* RESET + BASE */
+*{box-sizing:border-box}html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#f8fbff,#eef6ff);color:#0f172a;display:flex;justify-content:center;padding:16px}
+
+/* WRAP MOBILE-FIRST STACK */
+.wrap{width:100%;max-width:420px;display:flex;flex-direction:column;gap:20px;align-items:center}
+
+/* HERO */
+.hero{background:#fff;border-radius:16px;padding:20px;box-shadow:0 6px 20px rgba(0,0,0,0.08);width:100%}
+.kicker{display:inline-block;padding:4px 8px;border-radius:999px;background:#ffedd5;color:#7c2d12;font-weight:700;font-size:13px;margin-bottom:12px}
+h1{margin:6px 0 12px;font-size:22px;line-height:1.2}
+.lead{margin-bottom:16px;color:#475569;font-size:14px}
+.features{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.feature{background:#f1f5f9;padding:8px 10px;border-radius:8px;font-size:13px;text-align:center;flex:1 1 45%}
+
+/* COUPON FORM */
+.coupon{background:#fff;border-radius:16px;box-shadow:0 6px 20px rgba(0,0,0,0.08);padding:16px;width:100%;position:relative}
+.coupon .title{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+.coupon .badge{background:linear-gradient(90deg,#ffd7d0,#ffb2a6);padding:6px 10px;border-radius:8px;font-weight:700;color:#6b0c00;font-size:12px}
+.subtitle{font-size:13px;color:#475569}
+h2{font-size:18px;margin:2px 0 0}
+input,textarea,select,button{font-size:14px;padding:10px;border-radius:10px;border:1px solid #e6e9ef;outline:none;width:100%;margin-top:8px}
+input:focus,textarea:focus{box-shadow:0 0 0 4px rgba(99,102,241,0.1);border-color:#6366f1}
+.consent{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:#475569;margin-top:8px}
+.consent span{line-height:1.3}
+button.primary{background:#0f172a;color:#fff;border:0;cursor:pointer;font-weight:700;border-radius:10px;margin-top:12px}
+button.ghost{background:transparent;border:1px solid #e6e9ef;margin-top:12px}
+.status{font-size:13px;color:#334155;margin-top:8px}
+
+/* FLAIR */
+.sparkles{position:absolute;left:-20px;top:-20px;opacity:0.06;font-size:80px;font-weight:900;color:#ffb2a6;transform:rotate(-12deg)}
+
+/* GEO OVERLAY */
+#geoBlocker{position:fixed;inset:0;background:rgba(0,0,0,0.6);display:none;align-items:center;justify-content:center;z-index:99}
+#geoBlocker>div{background:#fff;padding:20px;border-radius:12px;text-align:center;max-width:280px;}

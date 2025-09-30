@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>✨ Surprise Coupon — Claim Your Offer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- HERO / MARKETING CONTENT -->
+    <section class="hero" aria-labelledby="hero-title">
+      <span class="kicker">Surprise Inside</span>
+      <h1 id="hero-title">Claim a handpicked coupon — limited slots today</h1>
+      <p class="lead">Allow location to get exclusive coupons tailored for your area. Tap "Get My Location" to start!</p>
+
+      <div class="features">
+        <div class="feature">Instant email delivery</div>
+        <div class="feature">Unique code</div>
+        <div class="feature">Geo-verified</div>
+        <div class="feature">No spam</div>
+      </div>
+    </section>
+
+    <!-- COUPON FORM -->
+    <aside class="coupon" aria-labelledby="form-title">
+      <div class="sparkles">★</div>
+      <div class="title">
+        <div class="badge">LIMITED</div>
+        <div>
+          <div class="subtitle">Exclusive Offer</div>
+          <h2 id="form-title">Claim Your Surprise Coupon</h2>
+        </div>
+      </div>
+
+      <form id="promoForm" autocomplete="off">
+        <input id="name" name="name" placeholder="Full name" required />
+        <input id="email" name="email" type="email" placeholder="Email" required />
+        <input id="phone" name="phone" placeholder="Phone (optional)" />
+        <textarea id="message" name="message" placeholder="Tell us what you like (optional)" rows="2"></textarea>
+
+        <label class="consent">
+          <input id="consent" type="checkbox" required />
+          <span>I consent to receive the coupon and share my location. I agree to the <a href="#" id="pp-link">Privacy Policy</a>.</span>
+        </label>
+
+        <div class="buttons">
+          <button id="claimBtn" class="primary" type="submit">Claim Now</button>
+          <button id="getLocBtn" type="button" class="ghost">Get My Location</button>
+        </div>
+
+        <div id="status" class="status" aria-live="polite"></div>
+      </form>
+    </aside>
+  </div>
+
+  <!-- GEO BLOCKER -->
+  <div id="geoBlocker">
+    <div>
+      <h3>Enable Location Access</h3>
+      <p>⚠️ Your browser has blocked location access. Please enable it in settings to continue.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
