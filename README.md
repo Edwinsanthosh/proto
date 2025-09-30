@@ -1,8 +1,5 @@
-Perfect 👍 I’ll give you the **exact text** for the `README.md` file so you can just copy–paste it as is.
 
----
-
-### 📄 `README.md`
+📄 `README.md`
 
 ```markdown
 # 📍 Location-Based Coupon Claim Page
